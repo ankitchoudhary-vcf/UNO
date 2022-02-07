@@ -1,0 +1,32 @@
+.Homepage {
+    background-image: url('../../assets/Landing-Page.gif');
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+  }
+  
+  .homepage-menu {
+    position: relative;
+    top: 120px;
+  }
+  
+  .homepage-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .homepage-form>h1 {
+    margin: 0 30px;
+  }
+  
+  .homepage-join {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .homepage-join>input {
+    font-size: 15px;
+    width: 150px;
+    line-height: 1.5em;
+  }
